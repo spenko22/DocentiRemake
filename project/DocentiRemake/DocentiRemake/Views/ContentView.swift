@@ -46,14 +46,13 @@ struct ContentView: View {
                             
                                 .frame(width:65.0, height:65.0)
                                 .padding(.top, 83.0)
-                        } // MERDA
+                        }
                         .sheet(isPresented: $showingSheet) {
                             UserView()
                         }
 
                     } // End navigationBarTrailing
                 } // End NavigationBarTitleDisplayMode
-
 
             } //MARK: End NavigationView
             .navigationViewStyle(StackNavigationViewStyle())
