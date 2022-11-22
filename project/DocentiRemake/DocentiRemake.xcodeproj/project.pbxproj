@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D95429D1292A98E500B18236 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95429D0292A98E500B18236 /* Data.swift */; };
+		D9A2AF85292A3B15003D6555 /* DocentiRemakeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A2AF84292A3B15003D6555 /* DocentiRemakeApp.swift */; };
+		D9A2AF87292A3B15003D6555 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A2AF86292A3B15003D6555 /* ContentView.swift */; };
+		D9A2AF89292A3B16003D6555 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9A2AF88292A3B16003D6555 /* Assets.xcassets */; };
+		D9A2AF8D292A3B16003D6555 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9A2AF8C292A3B16003D6555 /* Preview Assets.xcassets */; };
+		D9F4CC15292B854C0038E1EA /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F4CC14292B854C0038E1EA /* UserView.swift */; };
+		D9F4CC17292B99B50038E1EA /* Teacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F4CC16292B99B50038E1EA /* Teacher.swift */; };
+		D9F4CC19292B9AC20038E1EA /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F4CC18292B9AC20038E1EA /* ModelData.swift */; };
+		D9F4CC21292B9C440038E1EA /* teacherData.json in Resources */ = {isa = PBXBuildFile; fileRef = D9F4CC20292B9C440038E1EA /* teacherData.json */; };
+		D9F4CC26292BDBA50038E1EA /* TeacherRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F4CC25292BDBA50038E1EA /* TeacherRow.swift */; };
+		D9F4CC28292BE3D80038E1EA /* TeacherList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F4CC27292BE3D80038E1EA /* TeacherList.swift */; };
+		D9F4CC2A292BE4EB0038E1EA /* TeacherDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F4CC29292BE4EB0038E1EA /* TeacherDetail.swift */; };
+		D9F4CC2C292BE56D0038E1EA /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F4CC2B292BE56D0038E1EA /* CircleImage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D95429D0292A98E500B18236 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		D9A2AF81292A3B15003D6555 /* DocentiRemake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocentiRemake.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9A2AF84292A3B15003D6555 /* DocentiRemakeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocentiRemakeApp.swift; sourceTree = "<group>"; };
+		D9A2AF86292A3B15003D6555 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D9A2AF88292A3B16003D6555 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9A2AF8A292A3B16003D6555 /* DocentiRemake.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DocentiRemake.entitlements; sourceTree = "<group>"; };
+		D9A2AF8C292A3B16003D6555 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D9F4CC14292B854C0038E1EA /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		D9F4CC16292B99B50038E1EA /* Teacher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teacher.swift; sourceTree = "<group>"; };
+		D9F4CC18292B9AC20038E1EA /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		D9F4CC20292B9C440038E1EA /* teacherData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = teacherData.json; sourceTree = "<group>"; };
+		D9F4CC25292BDBA50038E1EA /* TeacherRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherRow.swift; sourceTree = "<group>"; };
+		D9F4CC27292BE3D80038E1EA /* TeacherList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherList.swift; sourceTree = "<group>"; };
+		D9F4CC29292BE4EB0038E1EA /* TeacherDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherDetail.swift; sourceTree = "<group>"; };
+		D9F4CC2B292BE56D0038E1EA /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9A2AF7E292A3B15003D6555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9A2AF78292A3B15003D6555 = {
+			isa = PBXGroup;
+			children = (
+				D9A2AF83292A3B15003D6555 /* DocentiRemake */,
+				D9A2AF82292A3B15003D6555 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9A2AF82292A3B15003D6555 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9A2AF81292A3B15003D6555 /* DocentiRemake.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9A2AF83292A3B15003D6555 /* DocentiRemake */ = {
+			isa = PBXGroup;
+			children = (
+				D9A2AF84292A3B15003D6555 /* DocentiRemakeApp.swift */,
+				D9F4CC24292B9E8A0038E1EA /* Views */,
+				D9F4CC23292B9E6F0038E1EA /* Resources */,
+				D9A2AF88292A3B16003D6555 /* Assets.xcassets */,
+				D9A2AF8A292A3B16003D6555 /* DocentiRemake.entitlements */,
+				D9A2AF8B292A3B16003D6555 /* Preview Content */,
+			);
+			path = DocentiRemake;
+			sourceTree = "<group>";
+		};
+		D9A2AF8B292A3B16003D6555 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D9A2AF8C292A3B16003D6555 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D9F4CC23292B9E6F0038E1EA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D9F4CC16292B99B50038E1EA /* Teacher.swift */,
+				D95429D0292A98E500B18236 /* Data.swift */,
+				D9F4CC18292B9AC20038E1EA /* ModelData.swift */,
+				D9F4CC20292B9C440038E1EA /* teacherData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D9F4CC24292B9E8A0038E1EA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D9F4CC2B292BE56D0038E1EA /* CircleImage.swift */,
+				D9A2AF86292A3B15003D6555 /* ContentView.swift */,
+				D9F4CC25292BDBA50038E1EA /* TeacherRow.swift */,
+				D9F4CC27292BE3D80038E1EA /* TeacherList.swift */,
+				D9F4CC29292BE4EB0038E1EA /* TeacherDetail.swift */,
+				D9F4CC14292B854C0038E1EA /* UserView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9A2AF80292A3B15003D6555 /* DocentiRemake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9A2AF90292A3B16003D6555 /* Build configuration list for PBXNativeTarget "DocentiRemake" */;
+			buildPhases = (
+				D9A2AF7D292A3B15003D6555 /* Sources */,
+				D9A2AF7E292A3B15003D6555 /* Frameworks */,
+				D9A2AF7F292A3B15003D6555 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DocentiRemake;
+			productName = DocentiRemake;
+			productReference = D9A2AF81292A3B15003D6555 /* DocentiRemake.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9A2AF79292A3B15003D6555 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					D9A2AF80292A3B15003D6555 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = D9A2AF7C292A3B15003D6555 /* Build configuration list for PBXProject "DocentiRemake" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9A2AF78292A3B15003D6555;
+			productRefGroup = D9A2AF82292A3B15003D6555 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9A2AF80292A3B15003D6555 /* DocentiRemake */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9A2AF7F292A3B15003D6555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9A2AF8D292A3B16003D6555 /* Preview Assets.xcassets in Resources */,
+				D9F4CC21292B9C440038E1EA /* teacherData.json in Resources */,
+				D9A2AF89292A3B16003D6555 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9A2AF7D292A3B15003D6555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9A2AF87292A3B15003D6555 /* ContentView.swift in Sources */,
+				D9F4CC2A292BE4EB0038E1EA /* TeacherDetail.swift in Sources */,
+				D9F4CC26292BDBA50038E1EA /* TeacherRow.swift in Sources */,
+				D9F4CC17292B99B50038E1EA /* Teacher.swift in Sources */,
+				D95429D1292A98E500B18236 /* Data.swift in Sources */,
+				D9F4CC28292BE3D80038E1EA /* TeacherList.swift in Sources */,
+				D9F4CC15292B854C0038E1EA /* UserView.swift in Sources */,
+				D9A2AF85292A3B15003D6555 /* DocentiRemakeApp.swift in Sources */,
+				D9F4CC19292B9AC20038E1EA /* ModelData.swift in Sources */,
+				D9F4CC2C292BE56D0038E1EA /* CircleImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D9A2AF8E292A3B16003D6555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D9A2AF8F292A3B16003D6555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D9A2AF91292A3B16003D6555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DocentiRemake/DocentiRemake.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DocentiRemake/Preview Content\"";
+				DEVELOPMENT_TEAM = 4459KRHDPJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = spenko.DocentiRemake;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9A2AF92292A3B16003D6555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DocentiRemake/DocentiRemake.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DocentiRemake/Preview Content\"";
+				DEVELOPMENT_TEAM = 4459KRHDPJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = spenko.DocentiRemake;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9A2AF7C292A3B15003D6555 /* Build configuration list for PBXProject "DocentiRemake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9A2AF8E292A3B16003D6555 /* Debug */,
+				D9A2AF8F292A3B16003D6555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9A2AF90292A3B16003D6555 /* Build configuration list for PBXNativeTarget "DocentiRemake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9A2AF91292A3B16003D6555 /* Debug */,
+				D9A2AF92292A3B16003D6555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9A2AF79292A3B15003D6555 /* Project object */;
+}

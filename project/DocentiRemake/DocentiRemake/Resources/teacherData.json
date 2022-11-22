@@ -1,0 +1,31 @@
+[
+    {
+        "name": "Giorgio Ventre",
+        "onlysurname": "VENTRE",
+        "department": "Department of IT and Electric Engineering",
+        "location": "📍 Via Claudio 21, NA",
+        "id": 1001,
+        "isFeatured": true,
+        "isFavorite": true,
+        "mail": "giorgio.ventre@unina.it",
+        "phone": "+39 081 768 3818",
+        "phone1": "+39 081 768 3908",
+        "phone2": "",
+        "imageName": "Giorgio Ventre"
+    },
+    {
+        "name": "Matteo Lorito",
+        "onlysurname": "LORITO",
+        "department": "Federico II University Rector",
+        "location": "📍Via Università 100, NA",
+        "id": 1002,
+        "isFeatured": true,
+        "isFavorite": true,
+        "mail": "matteo.lorito@unina.it",
+        "phone": "+39 081 253 9376",
+        "phone1": "+39 081 253 9377",
+        "phone2": "+39 081 253 9442",
+        "imageName": "Matteo Lorito"
+    }
+]
+   
