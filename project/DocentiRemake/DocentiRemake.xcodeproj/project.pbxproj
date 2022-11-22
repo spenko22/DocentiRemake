@@ -30,7 +30,7 @@
 		D9A2AF88292A3B16003D6555 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9A2AF8A292A3B16003D6555 /* DocentiRemake.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DocentiRemake.entitlements; sourceTree = "<group>"; };
 		D9A2AF8C292A3B16003D6555 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D9F4CC14292B854C0038E1EA /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		D9F4CC14292B854C0038E1EA /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; usesTabs = 0; };
 		D9F4CC16292B99B50038E1EA /* Teacher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teacher.swift; sourceTree = "<group>"; };
 		D9F4CC18292B9AC20038E1EA /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		D9F4CC20292B9C440038E1EA /* teacherData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = teacherData.json; sourceTree = "<group>"; };

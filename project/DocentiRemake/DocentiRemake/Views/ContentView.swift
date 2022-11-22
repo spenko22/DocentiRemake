@@ -57,9 +57,7 @@ struct ContentView: View {
             } //MARK: End NavigationView
             .navigationViewStyle(StackNavigationViewStyle())
             .searchable(text: $searchText, placement: .navigationBarDrawer(displayMode: .always), prompt: "Professor, Teaching, Course Code")
-//        {
-//                Text("ciao").searchCompletion("ciao")
-//            }
+        
             }// End body
     } //MARK: End ContentView
 

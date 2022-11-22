@@ -11,7 +11,26 @@ struct UserView: View {
     @Environment(\.dismiss) var dismiss
     var body: some View {
         NavigationView {
-            Form {
+            ScrollView {
+                HStack {
+                    Image(systemName: "person.circle.fill")
+                        .resizable()
+                        .foregroundColor(Color("fedBlue"))
+                        .frame(width:65.0, height:65.0)
+                    
+                    Text("")
+                    
+                    VStack(alignment: .leading) {
+                        Text("Name Surname")
+                            .font(.title2)
+                            .fontWeight(.medium)
+                        Text("user@studenti.unina.it")
+                            .foregroundColor(.gray)
+                    }//MARK: End VStack
+                    Spacer()
+                } //MARK: End HStack
+                .padding()
+                Divider()
                 
             }
             .toolbar {

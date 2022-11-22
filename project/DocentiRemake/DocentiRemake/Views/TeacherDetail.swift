@@ -45,7 +45,6 @@ struct TeacherDetail: View {
                         
                         Spacer()
                         Divider()
- 
                         Spacer()
                         
                         HStack {
