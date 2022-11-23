@@ -8,17 +8,59 @@
         "isFeatured": true,
         "isFavorite": true,
         "mail": "giorgio.ventre@unina.it",
-        "phone": "+39 081 768 3818",
+        "phone": "",
         "phone1": "+39 081 768 3908",
-        "phone2": "",
+        "phone2": "+39 081 768 3818",
         "imageName": "Giorgio Ventre"
+    },
+    {
+        "name": "Iacopo Grassi",
+        "onlysurname": "GRASSI",
+        "department": "Department of Economic and Statistic Sciences",
+        "location": "📍DISES, Office E8",
+        "id": 1002,
+        "isFeatured": true,
+        "isFavorite": true,
+        "mail": "iacopo.grassi@unina.it",
+        "phone": "",
+        "phone1": "+39 081 253 8229",
+        "phone2": "",
+        "imageName": "Iacopo Grassi"
+    },
+    {
+        "name": "Cristina Mele",
+        "onlysurname": "MELE",
+        "department": "Department of Economics, Management, Institutions",
+        "location": "📍Via Cintia 26, NA ",
+        "id": 1003,
+        "isFeatured": true,
+        "isFavorite": true,
+        "mail": "cristina.mele@unina.it",
+        "phone": "",
+        "phone1": "+39 081 675 375",
+        "phone2": "",
+        "imageName": "Cristina Mele"
     },
     {
         "name": "Matteo Lorito",
         "onlysurname": "LORITO",
-        "department": "Federico II University Rector",
+        "department": "University Rector",
         "location": "📍Via Università 100, NA",
-        "id": 1002,
+        "id": 1004,
+        "isFeatured": true,
+        "isFavorite": true,
+        "mail": "matteo.lorito@unina.it",
+        "phone": "+39 081 253 9376",
+        "phone1": "+39 081 253 9377",
+        "phone2": "+39 081 253 9442",
+        "imageName": "Matteo Lorito"
+    },
+    {
+        "name": "Matteo Lorito",
+        "onlysurname": "LORITO",
+        "department": "University Rector",
+        "location": "📍Via Università 100, NA",
+        "id": 1004,
         "isFeatured": true,
         "isFavorite": true,
         "mail": "matteo.lorito@unina.it",
@@ -28,4 +70,4 @@
         "imageName": "Matteo Lorito"
     }
 ]
-   
+

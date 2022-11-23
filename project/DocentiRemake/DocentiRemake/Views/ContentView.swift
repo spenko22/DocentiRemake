@@ -41,11 +41,10 @@ struct ContentView: View {
                             showingSheet.toggle()
 
                         } label: {
-                            Image("fedUser")
-                                .resizable()
-                            
-                                .frame(width:65.0, height:65.0)
-                                .padding(.top, 83.0)
+                            Text("User Login")
+                                .fontWeight(.medium)
+                            //    .resizable()
+                             //   .frame(width:50.0, height:50.0)
                         }
                         .sheet(isPresented: $showingSheet) {
                             UserView()
@@ -72,5 +71,10 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .previewDevice(PreviewDevice(rawValue: "iPad Pro (11-inch) (3rd generation)"))
+            .previewDisplayName("iPad Pro 11\"")
+        ContentView()
+            .previewDevice(PreviewDevice(rawValue: "iPhone 13"))
+            .previewDisplayName("iPhone 13")
     }
 }

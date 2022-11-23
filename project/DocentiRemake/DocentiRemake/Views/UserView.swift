@@ -31,13 +31,19 @@ struct UserView: View {
                 } //MARK: End HStack
                 .padding()
                 Divider()
+                VStack {
+                    
+                    Text("SPID/CIE Access")
+                        .frame(width: 150, height: 100)
+                    
+                }
                 
-            }
+            } //MARK: End ScrollView
             .toolbar {
                 Button("Done") {
                     dismiss()
                 }
-                    .fontWeight(.semibold)
+                    .fontWeight(.medium)
             }
             .navigationTitle("Account")
             .navigationBarTitleDisplayMode(.inline)
@@ -50,5 +56,7 @@ struct UserView: View {
 struct UserView_Previews: PreviewProvider {
     static var previews: some View {
         UserView()
+            .previewDevice(PreviewDevice(rawValue: "iPad Pro (11-inch) (3rd generation)"))
+            .previewDisplayName("iPad Pro 11\"")
     }
 }

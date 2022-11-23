@@ -19,9 +19,11 @@ struct TeacherRow: View {
                            .clipShape(Circle())
             Text(" ")
             
-            Text(teacher.name)
-                .foregroundColor(CustomColor.fedBlue)
-                .font(.title)
+            VStack {
+                Text(teacher.name)
+                    .foregroundColor(CustomColor.fedBlue)
+                    .font(.title)
+            }
             
             Spacer()
         } //MARK: End HStack
