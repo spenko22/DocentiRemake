@@ -8,9 +8,7 @@
 import SwiftUI
 
 struct TeacherList: View {
-    var body: some View {
-// NavigationView {
-            
+    var body: some View {            
         List(teachers) { teacher in
             NavigationLink {
                 TeacherDetail(teacher: teacher)
@@ -18,12 +16,13 @@ struct TeacherList: View {
                 TeacherRow(teacher: teacher)
             }
         }
-  //   } //MARK: End NavigationView
     }
 }
 
 struct TeacherList_Previews: PreviewProvider {
     static var previews: some View {
         TeacherList()
+            .previewDevice(PreviewDevice(rawValue: "iPad Pro (11-inch) (3rd generation)"))
+            .previewDisplayName("iPad Pro 11\"")
     }
 }

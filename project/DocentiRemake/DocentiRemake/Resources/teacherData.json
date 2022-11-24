@@ -54,20 +54,6 @@
         "phone1": "+39 081 253 9377",
         "phone2": "+39 081 253 9442",
         "imageName": "Matteo Lorito"
-    },
-    {
-        "name": "Matteo Lorito",
-        "onlysurname": "LORITO",
-        "department": "University Rector",
-        "location": "📍Via Università 100, NA",
-        "id": 1004,
-        "isFeatured": true,
-        "isFavorite": true,
-        "mail": "matteo.lorito@unina.it",
-        "phone": "+39 081 253 9376",
-        "phone1": "+39 081 253 9377",
-        "phone2": "+39 081 253 9442",
-        "imageName": "Matteo Lorito"
     }
 ]
 

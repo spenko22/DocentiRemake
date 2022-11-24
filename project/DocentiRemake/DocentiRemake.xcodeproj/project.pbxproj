@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D901E711292E9CEA0091EBB7 /* AppSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D901E710292E9CEA0091EBB7 /* AppSettingsView.swift */; };
 		D95429D1292A98E500B18236 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95429D0292A98E500B18236 /* Data.swift */; };
 		D9A2AF85292A3B15003D6555 /* DocentiRemakeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A2AF84292A3B15003D6555 /* DocentiRemakeApp.swift */; };
 		D9A2AF87292A3B15003D6555 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A2AF86292A3B15003D6555 /* ContentView.swift */; };
 		D9A2AF89292A3B16003D6555 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9A2AF88292A3B16003D6555 /* Assets.xcassets */; };
 		D9A2AF8D292A3B16003D6555 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9A2AF8C292A3B16003D6555 /* Preview Assets.xcassets */; };
+		D9D6F923292F66F300BF2FC5 /* Colours.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D6F922292F66F300BF2FC5 /* Colours.swift */; };
+		D9D6F925292F6D6600BF2FC5 /* SegmentedControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D6F924292F6D6600BF2FC5 /* SegmentedControlView.swift */; };
+		D9D6F927292F6E9F00BF2FC5 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D6F926292F6E9F00BF2FC5 /* BoardView.swift */; };
+		D9D6F929292F6EDB00BF2FC5 /* DidacticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D6F928292F6EDB00BF2FC5 /* DidacticsView.swift */; };
 		D9F4CC15292B854C0038E1EA /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F4CC14292B854C0038E1EA /* UserView.swift */; };
 		D9F4CC17292B99B50038E1EA /* Teacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F4CC16292B99B50038E1EA /* Teacher.swift */; };
 		D9F4CC19292B9AC20038E1EA /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F4CC18292B9AC20038E1EA /* ModelData.swift */; };
@@ -23,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D901E710292E9CEA0091EBB7 /* AppSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsView.swift; sourceTree = "<group>"; };
 		D95429D0292A98E500B18236 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		D9A2AF81292A3B15003D6555 /* DocentiRemake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocentiRemake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9A2AF84292A3B15003D6555 /* DocentiRemakeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocentiRemakeApp.swift; sourceTree = "<group>"; };
@@ -30,6 +36,10 @@
 		D9A2AF88292A3B16003D6555 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9A2AF8A292A3B16003D6555 /* DocentiRemake.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DocentiRemake.entitlements; sourceTree = "<group>"; };
 		D9A2AF8C292A3B16003D6555 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D9D6F922292F66F300BF2FC5 /* Colours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colours.swift; sourceTree = "<group>"; };
+		D9D6F924292F6D6600BF2FC5 /* SegmentedControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControlView.swift; sourceTree = "<group>"; };
+		D9D6F926292F6E9F00BF2FC5 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		D9D6F928292F6EDB00BF2FC5 /* DidacticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DidacticsView.swift; sourceTree = "<group>"; };
 		D9F4CC14292B854C0038E1EA /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; usesTabs = 0; };
 		D9F4CC16292B99B50038E1EA /* Teacher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teacher.swift; sourceTree = "<group>"; };
 		D9F4CC18292B9AC20038E1EA /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
@@ -91,6 +101,7 @@
 		D9F4CC23292B9E6F0038E1EA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D9D6F922292F66F300BF2FC5 /* Colours.swift */,
 				D9F4CC16292B99B50038E1EA /* Teacher.swift */,
 				D95429D0292A98E500B18236 /* Data.swift */,
 				D9F4CC18292B9AC20038E1EA /* ModelData.swift */,
@@ -102,12 +113,16 @@
 		D9F4CC24292B9E8A0038E1EA /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				D9F4CC2B292BE56D0038E1EA /* CircleImage.swift */,
 				D9A2AF86292A3B15003D6555 /* ContentView.swift */,
+				D9F4CC2B292BE56D0038E1EA /* CircleImage.swift */,
 				D9F4CC25292BDBA50038E1EA /* TeacherRow.swift */,
 				D9F4CC27292BE3D80038E1EA /* TeacherList.swift */,
-				D9F4CC29292BE4EB0038E1EA /* TeacherDetail.swift */,
 				D9F4CC14292B854C0038E1EA /* UserView.swift */,
+				D901E710292E9CEA0091EBB7 /* AppSettingsView.swift */,
+				D9D6F924292F6D6600BF2FC5 /* SegmentedControlView.swift */,
+				D9F4CC29292BE4EB0038E1EA /* TeacherDetail.swift */,
+				D9D6F926292F6E9F00BF2FC5 /* BoardView.swift */,
+				D9D6F928292F6EDB00BF2FC5 /* DidacticsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -184,11 +199,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9A2AF87292A3B15003D6555 /* ContentView.swift in Sources */,
+				D9D6F925292F6D6600BF2FC5 /* SegmentedControlView.swift in Sources */,
+				D9D6F929292F6EDB00BF2FC5 /* DidacticsView.swift in Sources */,
 				D9F4CC2A292BE4EB0038E1EA /* TeacherDetail.swift in Sources */,
+				D901E711292E9CEA0091EBB7 /* AppSettingsView.swift in Sources */,
 				D9F4CC26292BDBA50038E1EA /* TeacherRow.swift in Sources */,
 				D9F4CC17292B99B50038E1EA /* Teacher.swift in Sources */,
 				D95429D1292A98E500B18236 /* Data.swift in Sources */,
+				D9D6F927292F6E9F00BF2FC5 /* BoardView.swift in Sources */,
 				D9F4CC28292BE3D80038E1EA /* TeacherList.swift in Sources */,
+				D9D6F923292F66F300BF2FC5 /* Colours.swift in Sources */,
 				D9F4CC15292B854C0038E1EA /* UserView.swift in Sources */,
 				D9A2AF85292A3B15003D6555 /* DocentiRemakeApp.swift in Sources */,
 				D9F4CC19292B9AC20038E1EA /* ModelData.swift in Sources */,

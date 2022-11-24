@@ -37,6 +37,8 @@ struct TeacherRow_Previews: PreviewProvider {
             TeacherRow(teacher: teachers[1])
         } //MARK: End Teachers Group
         .previewLayout(.fixed(width: 300, height: 70))
+        .previewDevice(PreviewDevice(rawValue: "iPad Pro (11-inch) (3rd generation)"))
+        .previewDisplayName("iPad Pro 11\"")
     }
 }
 

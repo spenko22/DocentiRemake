@@ -64,6 +64,10 @@ struct TeacherDetail: View {
             } //MARK: End Main HStack
             Divider()
             
+            SegmentedControlView().padding()
+    
+                
+            
                } //MARK: End ScrollView
         .navigationTitle("Prof. \(teacher.onlysurname)")
         .navigationBarTitleDisplayMode(.inline)
@@ -73,5 +77,7 @@ struct TeacherDetail: View {
 struct TeacherDetail_Previews: PreviewProvider {
     static var previews: some View {
         TeacherDetail(teacher: teachers[0])
+            .previewDevice(PreviewDevice(rawValue: "iPad Pro (11-inch) (3rd generation)"))
+            .previewDisplayName("iPad Pro 11\"")
     }
 }

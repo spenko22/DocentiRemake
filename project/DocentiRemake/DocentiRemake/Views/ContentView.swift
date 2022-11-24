@@ -15,7 +15,7 @@ struct ContentView: View {
     var body: some View {
             NavigationView {
                     Form {
-// // following, things i removed bc i got in touch with the ".searchable" modifier
+// // Following, things I removed bc I got in touch with the ".searchable" modifier
 //                    Section {
 //                        HStack {
 //                            Image(systemName: "magnifyingglass")
@@ -41,11 +41,12 @@ struct ContentView: View {
                             showingSheet.toggle()
 
                         } label: {
+                            Image(systemName: "person.circle.fill")
                             Text("User Login")
-                                .fontWeight(.medium)
+
                             //    .resizable()
                              //   .frame(width:50.0, height:50.0)
-                        }
+                        } .fontWeight(.semibold)
                         .sheet(isPresented: $showingSheet) {
                             UserView()
                         }

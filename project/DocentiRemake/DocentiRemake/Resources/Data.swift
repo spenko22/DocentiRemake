@@ -10,5 +10,11 @@ import SwiftUI
 
 struct CustomColor {
     static let fedBlue = Color("fedBlue")
-    // add more colours here...
+    // Add more colours here...
 }
+
+enum Language: String, CaseIterable, Identifiable {
+    case english, italiano, napoletano
+    var id: Self { self }
+}
+
