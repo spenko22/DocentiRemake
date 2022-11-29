@@ -41,8 +41,8 @@ struct ContentView: View {
                             showingSheet.toggle()
 
                         } label: {
-                            Image(systemName: "person.circle.fill")
                             Text("User Login")
+                            Image(systemName: "person.circle.fill")
 
                             //    .resizable()
                              //   .frame(width:50.0, height:50.0)

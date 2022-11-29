@@ -77,7 +77,7 @@ struct DidacticsView: View {
             } //MARK: End HStack2
             
             
-        }.padding() //MARK: End VStack
+        }.padding() //MARK: End VStack\
     }
 }
 
